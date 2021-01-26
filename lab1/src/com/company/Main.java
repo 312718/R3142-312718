@@ -19,7 +19,7 @@ public class Main {
 
         final int Len_x = 12;
         final double mini = -6.0;
-        final double maxi = 15.0;
+        final double maxi = 15.0+ Double.MIN_VALUE;
         double[] x = new double[Len_x];
 
         for (int i = 0; i < Len_x; i++) {
