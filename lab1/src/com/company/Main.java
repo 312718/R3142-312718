@@ -25,7 +25,6 @@ public class Main {
         for (int i = 0; i < Len_x; i++) {
             x[i] = random()*(maxi-mini) + mini;
         }
-
         // Задание №3
 
         final int Len_b1 = 12;
